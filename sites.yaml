@@ -1,0 +1,23 @@
+site:
+  title: The ExtraNix Project
+  tagline: Making Nix and NixOS more well-known to the general public.
+  disclaimer: >-
+    ExtraNix is not affiliated with the NixOS Foundation, which guides the
+    development of the NixOS operating system distribution and Nix functional
+    package management system.
+
+    <p>Made with ♥️ and ❄️ by a huge Nix fan.</p>
+
+services:
+  - name: Home Manager Options Search
+    short: HM Options
+    url: https://home-manager-options.extranix.com/
+    description: Find Home Manager options quickly.
+  - name: NixVim Options Search
+    short: NixVim
+    url: https://nixvim-options.extranix.com/
+    description: Find NixVim options quickly.
+  - name: Nix Builtins Search
+    short: Builtins
+    url: https://nix-builtins-search.extranix.com/
+    description: Find Nix Builtin Functions.

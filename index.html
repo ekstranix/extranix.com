@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ExtraNix.com</title>
-    <style>
-      html, body {
-        font-family: sans-serif;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The ExtraNix Project</title>
+    <link rel="stylesheet" href="style.css">
     <script async src="https://umami.pimsnel.com/script.js" data-website-id="ee0c5e4c-1817-44ac-8b05-cdceaf5da358"></script>
   </head>
   <body>
-    <h1>The ExtraNix Project</h1>
-    <p>The ExtraNix project has the mission to make Nix and NixOS more well-known to the general public.</p>
-    <h2>Public Services</h2>
-    <ul>
-      <li><a href="https://home-manager-options.extranix.com/">Home Manager Options Search</a> - Find Home Manager options quickly.</li>
-      <li><a href="https://nixvim-options.extranix.com/">NixVim Options Search</a> - Find NixVim options quickly.</li>
-      <li><a href="https://nix-builtins-search.extranix.com/">Nix Builtins Search</a> - Find Nix Builtin Function.</li>
-    </ul>
-    <p>ExtraNix is not affiliated with the NixOS Foundation, which guides the
-    development of the NixOS operating system distribution and Nix functional
-    package management system.</p>
+    <header>
+      <div class="logo-area">
+        <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#e40303"/>
+              <stop offset="20%" stop-color="#ff8c00"/>
+              <stop offset="40%" stop-color="#ffed00"/>
+              <stop offset="60%" stop-color="#008026"/>
+              <stop offset="80%" stop-color="#24408e"/>
+              <stop offset="100%" stop-color="#732982"/>
+            </linearGradient>
+          </defs>
+          <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+                font-family="Georgia, 'Times New Roman', serif"
+                font-size="56" font-weight="bold"
+                fill="url(#rainbow)">&#955;</text>
+        </svg>
+        <h1><span class="wordmark-extra">Extra</span><span class="wordmark-nix">Nix</span></h1>
+      </div>
+      <p class="tagline">Making Nix and NixOS more well-known to the general public.</p>
+    </header>
+    <div class="tiles">
+      <a class="tile" href="https://home-manager-options.extranix.com/">
+        <span class="short">HM Options</span>
+        <span class="description">Find Home Manager options quickly.</span>
+      </a>
+      <a class="tile" href="https://nixvim-options.extranix.com/">
+        <span class="short">NixVim</span>
+        <span class="description">Find NixVim options quickly.</span>
+      </a>
+      <a class="tile" href="https://nix-builtins-search.extranix.com/">
+        <span class="short">Builtins</span>
+        <span class="description">Find Nix Builtin Functions.</span>
+      </a>
+    </div>
+    <footer>
+      <p>ExtraNix is not affiliated with the NixOS Foundation, which guides the development of the NixOS operating system distribution and Nix functional package management system.
+<p>Made with ♥️ and ❄️ by a huge Nix fan.</p></p>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>
-
