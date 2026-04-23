@@ -1,6 +1,6 @@
 site:
   title: The ExtraNix Project
-  tagline: Making Nix and NixOS more well-known to the general public.
+  tagline: Extra tools for an extraordinarily λ ecosystem
   disclaimer: >-
     ExtraNix is not affiliated with the NixOS Foundation, which guides the
     development of the NixOS operating system distribution and Nix functional
@@ -14,10 +14,18 @@ services:
     url: https://home-manager-options.extranix.com/
     description: Find Home Manager options quickly.
   - name: NixVim Options Search
-    short: NixVim
+    short: NixVim Options
     url: https://nixvim-options.extranix.com/
     description: Find NixVim options quickly.
   - name: Nix Builtins Search
-    short: Builtins
+    short: Nix Builtins
     url: https://nix-builtins-search.extranix.com/
     description: Find Nix Builtin Functions.
+  - name: NixOS Options Search
+    short: NixOS Options
+    url: https://nixos-option-search.extranix.com/
+    description: Search NixOS configuration options across releases.
+  - name: NixPaint
+    short: NixPaint
+    url: https://nixpaint.extranix.com/
+    description: Paint with Lambda's
